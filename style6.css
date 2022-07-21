@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 5px;
+    padding: 10px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+a:hover {
+    color: black;
+}
+
+.ac > a {
+    background-color: green;
+    border-radius: 80px;
+}
